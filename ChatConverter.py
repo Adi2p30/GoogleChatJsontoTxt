@@ -48,9 +48,9 @@ def getpaths(directory, writepath):
                     pass
         except:
             pass
-def start():
-    print("Welcome to the Google Chat Parser")
-    loc = input("What is the directory for the files?: ")
-    writepath = input("Where should I put the files?: ")
-    getpaths(loc,writepath)
-start()
+# def start():
+#     print("Welcome to the Google Chat Parser")
+#     loc = input("What is the directory for the files?: ")
+#     writepath = input("Where should I put the files?: ")
+#     getpaths(loc,writepath)
+# start()
